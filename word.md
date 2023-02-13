@@ -19,7 +19,9 @@ AWS CodePipeline
 NLB
 * CloudFront
 
-EFS
+* EFS
+  * Amazon Elastic File System
+  * NFSみたいなやつ
 * ChangeMessageVisibility API
   * SQSの可視性タイムアウトを設定して重複処理をなくす
 AddPermissionAPI
@@ -53,7 +55,10 @@ Amazon Kinesis Data Firehose
 * AWS Secrets Manager Parameter Store
   * 存在しない
 * Snowball edge
-  * 機器レンタルが必要ななにか
+  * セキュリティを考慮されたペタバイト規模のデータ転送手段
+  * 物理的に搬送する
+  * Computeで40TB
+  * Storageで80TB
 * Direct Connect
   * 物理的な専用線が必要
 AWS Certificate Manager（ACM）
@@ -77,9 +82,10 @@ Lustreクライアント
 Amazon FSx for Lustre
 * Amazon DLM
   * Amazon Data Lifecycle Manager EBSのデータを定期的にバックアップする
-Amazon EMR
+* Amazon EMR
+  * マネージド型Hadoopフレームワーク
 * DynamoDB Accelerator(DAX)
-  * キャッシュを利用した特定のデータへの処理が高い場合、躊躇鬱気的な性能向上が見込める
+  * キャッシュを利用した特定のデータへの処理が高い場合、中長期的な性能向上が見込める
   * 需要変動に応じたパフォーマンス向上には不適切
 * Route Origin Authorization(ROA)
   * RIRを介して作成されるドキュメント。これでパブリックにルーティング可能なIPのアドレス範囲をAWSアカウントに移行できる
@@ -92,3 +98,9 @@ CloudTrail Insight
   * IoTストリーミングデータのリアルタイム分析可能なアプリを構築
 * NLB
   * Network Load Balancer
+* Amazon EKS
+  * Amazon Elastic Kubernetes Service
+RekognitionAPI
+Amazon Inspector
+* AWS AppSync
+  * DynamoDBのデータをリアルタイムでさいしんのものを取得できる？
