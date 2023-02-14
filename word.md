@@ -104,3 +104,14 @@ RekognitionAPI
 Amazon Inspector
 * AWS AppSync
   * DynamoDBのデータをリアルタイムでさいしんのものを取得できる？
+Amazon FSx for Windows
+AWS Managed Active Directory
+SWF
+AWS DMS
+AWS DataSync
+* ENI
+  * Elastic Network Interface
+  * VPCの論理ネットワークコンポーネント
+* WLM
+  * Workload Management
+  * Redshiftのクエリ処理に対して割り当てるRedshuftのリソースを指定する
