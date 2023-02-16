@@ -106,8 +106,12 @@ Amazon Inspector
   * DynamoDBのデータをリアルタイムでさいしんのものを取得できる？
 Amazon FSx for Windows
 AWS Managed Active Directory
-SWF
+* SWF
+  * レガシーなワークフロー
 AWS DMS
+AWS ADS
+AWS MGN
+
 AWS DataSync
 * ENI
   * Elastic Network Interface
@@ -115,3 +119,18 @@ AWS DataSync
 * WLM
   * Workload Management
   * Redshiftのクエリ処理に対して割り当てるRedshuftのリソースを指定する
+
+* Amazon Polly
+  * 文章を音声変換
+* Amazon SageMaker
+  * 機械学習モデルのワークフロー
+* Amazon Lex
+  * 音声認識
+* AWS application Discovery Service
+  * オンプレのサーバにエージェントをインストールすることでデータセンターの利用状況を収集することができる
+* Amazon QuickSight
+  * クラウド型BIツール
+* Amazon WorkSpaces
+  * マネージドでセキュアな仮想デスクトップ環境
+* AWS Outposts
+  * RDSをオンプレミス環境にセットアップできる
